@@ -1,0 +1,18 @@
+str1="Welcome you all students"
+capital=str1.upper()
+print(capital)
+small=capital.lower()
+print(small)
+str2=str1.replace("students","engineers")
+print(str2)
+st=" This is an example of strip "
+left=st.lstrip()
+print(left)
+right=st.rstrip()
+print(right)
+prefix1=str1.startswith("Welcome ")
+print(prefix1)
+prefix2=str2.startswith("s")
+print(prefix2)
+prefix3=str2.endswith("w")
+print(prefix3)
