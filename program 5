@@ -1,0 +1,22 @@
+List = [1,2,3]
+print("Initial List: ")
+print(List)
+List.append(2)
+List.append(4)
+print("\n List after Addition of Two elements: ")
+print(List)
+List.insert(3,12)
+List.insert(4,14)
+print("\n List after performing Insert Operation: ")
+print(List)
+List.remove(1)
+List.remove(2)
+print("\n List after Removal of two elements: ")
+print(List)
+Sliced_List = List[2:4]
+print("\nSlicing elements in a range 2-4: ")
+print(Sliced_List)
+List2 = [8,10]
+List.append(List2)
+print("\n List after Addition of a List: ")
+print(List)
